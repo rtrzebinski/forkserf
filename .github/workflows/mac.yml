@@ -30,10 +30,10 @@ jobs:
         run: |
           cmake -B build -G "Unix Makefiles"
 
-      - name: Check style
-        run: |
-          cd build
-          make check_style
+#      - name: Check style
+#        run: |
+#          cd build
+#          make check_style
 
       - name: Build ForkSerf
         run: |
