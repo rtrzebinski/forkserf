@@ -53,5 +53,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name: ForkSerf-${{ matrix.buildtype }}
+          name: ForkSerf-${{ matrix.buildtype }}.dmg
           path: ./build/ForkSerf.dmg
